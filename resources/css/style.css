@@ -1,0 +1,98 @@
+/* General Style*/
+html{
+  font-size: 18px;
+  border: black solid 1px;
+  /*background-color: white;*/
+}
+
+body{
+  font-family: "Helvetica"; /*add ""on Helvetica*/
+  line-height:1.4;/*original 1.4em*/
+  border: black solid 1px;
+
+}
+
+h1{
+  font-family: "Helvetica";
+  line-height:1.2;
+  font-weight: bold;
+  font-size: 2rem;
+  border: black solid 1px;
+}
+
+span{
+  font-family: "Helvetica";
+  font-size: 1rem;
+  border: black solid 1px;
+}
+
+div{
+  display:block;
+  border: black solid 1px;
+}
+
+.container{
+  max-width: 960px;
+  margin: auto;
+}
+
+/*header style start*/
+header{
+  padding-top: 1rem;
+  height: 30rem;
+  background-image: url("../photo/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+
+}
+
+nav{
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0px;
+  /*display: block*/
+  border: black solid 1px;
+}
+
+nav div{
+  display: flex;
+  align-items: center;
+}
+
+nav img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul{
+  margin-right: 1rem;
+}
+
+ul li{
+  display: inline;
+  padding: 0px 1rem;
+  /*border: black solid 1px;*/
+}
+
+header .flex{
+  justify-content: flex-end;
+  /*border: black solid 1px;*/
+}
+
+.flex{
+  display: flex;
+}
+
+.main-banner{
+  background-color: white;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+  padding:0.75rem 5rem;
+  /*border: black solid 1px;*/
+}
